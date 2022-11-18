@@ -1,0 +1,36 @@
+Package: ros-rolling-rsl-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.2.0-2jammy
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-rsl
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 158
+Depends: ros-rolling-rsl (= 0.2.0-2jammy)
+Filename: ./ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+Size: 144026
+MD5sum: 8abd36ac2e3e2ee24a508142460c4d88
+SHA1: 389cfcd47c0a289d23074bc1b91d3a0f676ff5b6
+SHA256: e9d0248b22a0859da7fe96e81cc100d937a4bac2f13a57948f0863f73085b341
+SHA512: daee396ef50564a6cb226cbbdc1c9477ec408293f4d2b99b5e6d2c8fd62b454580c2c4a50a2d381007b1e882c29b2ed988c992a529561dde184eaea27e56c2c7
+Description: debug symbols for ros-rolling-rsl
+Build-Ids: 36bdf464185cdc0cb5ea58f0b2ec9b9df9c9baa1
+
+Package: ros-rolling-rsl
+Architecture: amd64
+Version: 0.2.0-2jammy
+Priority: optional
+Section: misc
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 115
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libeigen3-dev, libfmt-dev, ros-rolling-rclcpp, ros-rolling-tcb-span, ros-rolling-tl-expected
+Filename: ./ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+Size: 20092
+MD5sum: cbcdf2fab3b974c393c21f9347a25e7c
+SHA1: 8087824328b334d90bebcf6cbdcf9288bc32828c
+SHA256: 2470712ef47f16196a58bfdf27336b9e9bc6f4a6e6d5323bce237bc7d7bda7c3
+SHA512: 0e765ab6aa49b37de06d94cf5d1f45f340c3ba6dbc65d813a3cf1db82b5cd4dbc5ef46064d3c4bd1ffe287c22552f323f3566dc4d0a5f5eec450e16ed09dac10
+Description: ROS Support Library
+
