@@ -37,9 +37,9 @@ target_link_libraries(rsl PUBLIC
 
 add_subdirectory(docs)
 
-if(BUILD_TESTING)
-    add_subdirectory(tests)
-endif()
+#if(BUILD_TESTING)
+#    add_subdirectory(tests)
+#endif()
 
 install(
     DIRECTORY include/
