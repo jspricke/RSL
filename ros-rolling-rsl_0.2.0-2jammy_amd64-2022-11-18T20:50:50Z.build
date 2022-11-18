@@ -1,7 +1,7 @@
-sbuild (Debian sbuild) 0.84.1 (15 November 2022) on fv-az455-504.5mqodooyfmgunjgvckzlc4qzae.dx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.1 (15 November 2022) on fv-az174-925.qn2y3a43qyredecuquoupnzn0e.bx.internal.cloudapp.net
 
 +==============================================================================+
-| ros-rolling-rsl 0.2.0-2jammy (amd64)         Fri, 18 Nov 2022 20:50:08 +0000 |
+| ros-rolling-rsl 0.2.0-2jammy (amd64)         Fri, 18 Nov 2022 20:50:50 +0000 |
 +==============================================================================+
 
 Package: ros-rolling-rsl
@@ -13,32 +13,32 @@ Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.FpuAXsevPW...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.sVmqs3urJ3...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-tioz8b/resolver-iV8Znz' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-peYVpj/resolver-qPXKWC' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ InRelease
-Ign:1 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ InRelease
-Get:2 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ Release [568 B]
-Get:2 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ Release [568 B]
-Get:3 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ Release.gpg
-Ign:3 file:/build/ros-rolling-rsl-tioz8b/resolver-VnbdAH/apt_archive ./ Release.gpg
-Get:4 http://packages.ros.org/ros2/ubuntu jammy InRelease [4673 B]
-Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [764 kB]
-Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:7 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:1 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ InRelease
+Ign:1 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ InRelease
+Get:2 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ Release [568 B]
+Get:2 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ Release [568 B]
+Get:3 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ Release.gpg
+Ign:3 file:/build/ros-rolling-rsl-peYVpj/resolver-2VSho5/apt_archive ./ Release.gpg
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:5 http://packages.ros.org/ros2/ubuntu jammy InRelease [4673 B]
+Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [764 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [489 kB]
 Get:8 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [611 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [489 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
 Get:10 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
 Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
 Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
 Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [754 kB]
 Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [723 kB]
-Fetched 19.3 MB in 5s (4194 kB/s)
+Fetched 19.3 MB in 3s (5792 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -55,8 +55,8 @@ Local sources
 -------------
 
 /home/runner/work/RSL/ros-rolling-rsl_0.2.0-2jammy.dsc exists in /home/runner/work/RSL; copying to chroot
-I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-tioz8b/ros-rolling-rsl-0.2.0' with '<<PKGBUILDDIR>>'
-I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-tioz8b' with '<<BUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-peYVpj/ros-rolling-rsl-0.2.0' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/ros-rolling-rsl-peYVpj' with '<<BUILDDIR>>'
 
 +------------------------------------------------------------------------------+
 | Install package build dependencies                                           |
@@ -76,12 +76,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [798 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [808 B]
 Fetched 2186 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-VnbdAH/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-2VSho5/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -252,231 +252,231 @@ The following NEW packages will be installed:
 Need to get 138 MB of archives.
 After this operation, 655 MB of additional disk space will be used.
 Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [744 B]
-Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
-Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ros-workspace amd64 1.0.2-5jammy.20221102.192419 [16.7 kB]
-Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastcdr amd64 1.0.24-2jammy.20221102.193642 [44.1 kB]
-Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-package amd64 0.15.1-1jammy.20220914.010527 [21.6 kB]
-Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-core amd64 1.5.2-1jammy.20221102.192246 [29.0 kB]
-Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-definitions amd64 1.5.2-1jammy.20221102.192705 [7428 B]
-Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-libraries amd64 1.5.2-1jammy.20221102.192835 [7562 B]
-Get:9 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-dependencies amd64 1.5.2-1jammy.20221102.193026 [8962 B]
-Get:10 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-include-directories amd64 1.5.2-1jammy.20221102.192721 [7764 B]
-Get:11 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-libraries amd64 1.5.2-1jammy.20221102.192706 [10.5 kB]
-Get:12 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-interfaces amd64 1.5.2-1jammy.20221102.192746 [8186 B]
-Get:13 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-link-flags amd64 1.5.2-1jammy.20221102.192717 [7044 B]
-Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-targets amd64 1.5.2-1jammy.20221102.192735 [7736 B]
-Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gen-version-h amd64 1.5.2-1jammy.20221102.193628 [9130 B]
-Get:16 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-python amd64 1.5.2-1jammy.20221102.192703 [10.5 kB]
-Get:17 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-include-directories amd64 1.5.2-1jammy.20221102.192841 [7480 B]
-Get:18 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-target-dependencies amd64 1.5.2-1jammy.20221102.193033 [9692 B]
-Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-test amd64 1.5.2-1jammy.20221102.192731 [16.8 kB]
-Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-version amd64 1.5.2-1jammy.20221102.192703 [7234 B]
-Get:21 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake amd64 1.5.2-1jammy.20221102.193827 [7566 B]
-Get:22 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-index-python amd64 1.5.1-1jammy.20221102.194954 [12.3 kB]
-Get:23 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-python-cmake-module amd64 0.10.1-1jammy.20221102.201330 [8050 B]
-Get:24 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcutils amd64 6.0.1-1jammy.20221102.202700 [89.7 kB]
-Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04.1 [810 kB]
-Get:26 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-interface amd64 3.3.1-1jammy.20221102.195920 [8860 B]
-Get:27 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-runtime-c amd64 3.3.1-1jammy.20221102.212508 [26.5 kB]
-Get:28 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw amd64 6.4.0-1jammy.20221102.212809 [68.7 kB]
-Get:29 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-cli amd64 3.3.1-1jammy.20221102.195206 [18.8 kB]
-Get:30 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-adapter amd64 3.3.1-1jammy.20221102.195836 [19.4 kB]
-Get:31 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-parser amd64 3.3.1-1jammy.20221102.200016 [19.4 kB]
-Get:32 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-pycommon amd64 3.3.1-1jammy.20221102.200148 [7386 B]
-Get:33 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-c amd64 3.3.1-1jammy.20221102.212430 [20.0 kB]
-Get:34 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcpputils amd64 2.6.0-1jammy.20221102.203407 [44.5 kB]
-Get:35 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-c amd64 2.2.0-1jammy.20221102.213026 [24.5 kB]
-Get:36 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rpyutils amd64 0.3.1-1jammy.20221102.195223 [6214 B]
-Get:37 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-py amd64 0.16.1-1jammy.20221102.213950 [29.8 kB]
-Get:38 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-runtime-cpp amd64 3.3.1-1jammy.20221102.212839 [15.4 kB]
-Get:39 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-cpp amd64 2.2.0-1jammy.20221102.213316 [23.5 kB]
-Get:40 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-gtest-vendor amd64 1.10.9004-3jammy.20221102.193517 [175 kB]
-Get:41 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gtest amd64 1.5.2-1jammy.20221102.193555 [11.4 kB]
-Get:42 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-gmock-vendor amd64 1.10.9004-3jammy.20221102.193605 [93.3 kB]
-Get:43 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gmock amd64 1.5.2-1jammy.20221102.193700 [10.5 kB]
-Get:44 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-pytest amd64 1.5.2-1jammy.20221102.192858 [9846 B]
-Get:45 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-domain-coordinator amd64 0.11.1-1jammy.20221102.195107 [5528 B]
-Get:46 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-ros amd64 0.11.1-1jammy.20221102.200233 [8250 B]
-Get:47 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastrtps-cmake-module amd64 2.4.0-1jammy.20221102.201001 [7162 B]
-Get:48 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-cpp amd64 3.3.1-1jammy.20221102.213031 [20.2 kB]
-Get:49 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-fastrtps-cpp amd64 2.4.0-1jammy.20221102.213449 [25.4 kB]
-Get:50 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-fastrtps-c amd64 2.4.0-1jammy.20221102.213700 [23.8 kB]
-Get:51 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-introspection-c amd64 3.3.1-1jammy.20221102.212841 [22.7 kB]
-Get:52 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-introspection-cpp amd64 3.3.1-1jammy.20221102.213132 [22.7 kB]
-Get:53 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-core-runtime amd64 0.1.0-1jammy.20221102.214436 [5698 B]
-Get:54 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-builtin-interfaces amd64 1.3.1-1jammy.20221102.214752 [41.1 kB]
-Get:55 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-unique-identifier-msgs amd64 2.3.1-1jammy.20221102.214512 [37.6 kB]
-Get:56 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-action-msgs amd64 1.3.1-1jammy.20221102.215258 [68.9 kB]
-Get:57 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-index-cpp amd64 1.5.1-1jammy.20221102.200233 [23.0 kB]
-Get:58 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-foonathan-memory-vendor amd64 1.2.0-2jammy.20221102.201707 [769 kB]
-Get:59 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastrtps amd64 2.8.0-1jammy.20221102.201928 [2766 kB]
-Get:60 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.1 [90.9 kB]
-Get:61 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.6-1~22.04.1 [2263 kB]
-Get:62 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-default-runtime amd64 1.4.0-1jammy.20221102.220256 [7220 B]
-Get:63 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-interfaces amd64 1.3.1-1jammy.20221102.220627 [222 kB]
-Get:64 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-logging-interface amd64 2.4.2-1jammy.20221102.203832 [12.8 kB]
-Get:65 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-spdlog-vendor amd64 1.4.2-1jammy.20221102.195832 [6390 B]
-Get:66 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-logging-spdlog amd64 2.4.2-1jammy.20221102.204059 [17.8 kB]
-Get:67 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-libyaml-vendor amd64 1.4.2-1jammy.20221102.212357 [67.7 kB]
-Get:68 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-yaml-param-parser amd64 5.5.0-1jammy.20221102.213447 [29.4 kB]
-Get:69 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-implementation-cmake amd64 6.4.0-1jammy.20221102.195833 [8860 B]
-Get:70 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-dds-common amd64 1.7.1-1jammy.20221102.222428 [99.5 kB]
-Get:71 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tracetools amd64 4.1.0-1jammy.20221102.200534 [17.7 kB]
-Get:72 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-fastrtps-shared-cpp amd64 6.5.0-1jammy.20221102.225052 [164 kB]
-Get:73 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
-Get:74 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
-Get:75 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-fastrtps-cpp amd64 6.5.0-1jammy.20221102.225643 [94.2 kB]
-Get:76 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
-Get:77 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
-Get:78 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
-Get:79 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
-Get:80 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-implementation amd64 2.10.0-1jammy.20221107.193205 [25.4 kB]
-Get:81 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl amd64 5.5.0-1jammy.20221107.193448 [144 kB]
-Get:82 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.6-1~22.04.1 [1831 kB]
-Get:83 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-statistics-msgs amd64 1.3.1-1jammy.20221102.222247 [58.3 kB]
-Get:84 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-libstatistics-collector amd64 1.4.0-1jammy.20221108.012506 [25.5 kB]
-Get:85 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosgraph-msgs amd64 1.3.1-1jammy.20221102.222240 [36.0 kB]
-Get:86 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rclcpp amd64 17.1.0-1jammy.20221108.012818 [642 kB]
-Get:87 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.6-1~22.04.1 [497 kB]
-Get:88 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
-Get:89 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04 [22.8 kB]
-Get:90 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tcb-span amd64 1.0.2-1jammy.20221102.194744 [10.5 kB]
-Get:91 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tl-expected amd64 1.0.2-1jammy.20221102.194800 [16.4 kB]
-Get:92 http://archive.ubuntu.com/ubuntu jammy/main amd64 sgml-base all 1.30 [12.5 kB]
-Get:93 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmd0 amd64 1.0.4-1build1 [23.0 kB]
-Get:94 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbsd0 amd64 0.11.5-1 [44.8 kB]
-Get:95 http://archive.ubuntu.com/ubuntu jammy/main amd64 libelf1 amd64 0.186-1build1 [51.0 kB]
-Get:96 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglib2.0-0 amd64 2.72.1-1 [1460 kB]
-Get:97 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
-Get:98 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2 amd64 2.9.13+dfsg-1ubuntu0.1 [763 kB]
-Get:99 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-0-2 amd64 0.2.2-1build2 [51.6 kB]
-Get:100 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-pkg-resources all 59.6.0-1.2 [132 kB]
-Get:101 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-yaml amd64 5.4.1-1ubuntu1 [129 kB]
-Get:102 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 tzdata all 2022f-0ubuntu0.22.04.1 [333 kB]
-Get:103 http://archive.ubuntu.com/ubuntu jammy/main amd64 bsdextrautils amd64 2.37.2-4ubuntu3 [71.1 kB]
-Get:104 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmagic-mgc amd64 1:5.41-3 [257 kB]
-Get:105 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmagic1 amd64 1:5.41-3 [87.2 kB]
-Get:106 http://archive.ubuntu.com/ubuntu jammy/main amd64 file amd64 1:5.41-3 [21.5 kB]
-Get:107 http://archive.ubuntu.com/ubuntu jammy/main amd64 gettext-base amd64 0.21-4ubuntu4 [37.8 kB]
-Get:108 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuchardet0 amd64 0.0.7-1build2 [76.9 kB]
-Get:109 http://archive.ubuntu.com/ubuntu jammy/main amd64 groff-base amd64 1.22.4-8build1 [955 kB]
-Get:110 http://archive.ubuntu.com/ubuntu jammy/main amd64 libedit2 amd64 3.1-20210910-1build1 [96.8 kB]
-Get:111 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnghttp2-14 amd64 1.43.0-1build3 [76.3 kB]
-Get:112 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpipeline1 amd64 1.5.5-1 [23.5 kB]
-Get:113 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpsl5 amd64 0.21.0-1.2build2 [58.4 kB]
-Get:114 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuv1 amd64 1.43.0-1 [93.1 kB]
-Get:115 http://archive.ubuntu.com/ubuntu jammy/main amd64 man-db amd64 2.10.2-1 [1187 kB]
-Get:116 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsigsegv2 amd64 2.13-1ubuntu3 [14.6 kB]
-Get:117 http://archive.ubuntu.com/ubuntu jammy/main amd64 m4 amd64 1.4.18-5ubuntu2 [199 kB]
-Get:118 http://archive.ubuntu.com/ubuntu jammy/main amd64 autoconf all 2.71-2 [338 kB]
-Get:119 http://archive.ubuntu.com/ubuntu jammy/main amd64 autotools-dev all 20220109.1 [44.9 kB]
-Get:120 http://archive.ubuntu.com/ubuntu jammy/main amd64 automake all 1:1.16.5-1.3 [558 kB]
-Get:121 http://archive.ubuntu.com/ubuntu jammy/main amd64 autopoint all 0.21-4ubuntu4 [422 kB]
-Get:122 http://archive.ubuntu.com/ubuntu jammy/universe amd64 catch2 amd64 2.13.8-1 [490 kB]
-Get:123 http://archive.ubuntu.com/ubuntu jammy/main amd64 libllvm14 amd64 1:14.0.0-1ubuntu1 [24.0 MB]
-Get:124 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang-cpp14 amd64 1:14.0.0-1ubuntu1 [12.1 MB]
-Get:125 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgc1 amd64 1:8.0.6-1.1build1 [96.8 kB]
-Get:126 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc4 amd64 12.1.0-2ubuntu1~22.04 [48.7 kB]
-Get:127 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc-11-dev amd64 11.3.0-1ubuntu1~22.04 [196 kB]
-Get:128 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-i386 amd64 2.35-0ubuntu3.1 [2837 kB]
-Get:129 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 lib32gcc-s1 amd64 12.1.0-2ubuntu1~22.04 [64.5 kB]
-Get:130 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 lib32stdc++6 amd64 12.1.0-2ubuntu1~22.04 [737 kB]
-Get:131 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang-common-14-dev amd64 1:14.0.0-1ubuntu1 [5976 kB]
-Get:132 http://archive.ubuntu.com/ubuntu jammy/universe amd64 llvm-14-linker-tools amd64 1:14.0.0-1ubuntu1 [1353 kB]
-Get:133 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang1-14 amd64 1:14.0.0-1ubuntu1 [6796 kB]
-Get:134 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-14 amd64 1:14.0.0-1ubuntu1 [81.2 kB]
-Get:135 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tools-14 amd64 1:14.0.0-1ubuntu1 [6963 kB]
-Get:136 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tidy-14 amd64 1:14.0.0-1ubuntu1 [1624 kB]
-Get:137 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tidy amd64 1:14.0-55~exp2 [3456 B]
-Get:138 http://archive.ubuntu.com/ubuntu jammy/main amd64 libarchive13 amd64 3.6.0-1ubuntu1 [368 kB]
-Get:139 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
-Get:140 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1 [20.8 kB]
-Get:141 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1 [53.9 kB]
-Get:142 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.13+dfsg-0ubuntu0.22.04.1 [183 kB]
-Get:143 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
-Get:144 http://archive.ubuntu.com/ubuntu jammy/main amd64 libssh-4 amd64 0.9.6-2build1 [184 kB]
-Get:145 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.6 [290 kB]
-Get:146 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjsoncpp25 amd64 1.9.5-3 [80.0 kB]
-Get:147 http://archive.ubuntu.com/ubuntu jammy/main amd64 librhash0 amd64 1.4.2-1ubuntu1 [125 kB]
-Get:148 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-elpa-helper all 2.0.9ubuntu1 [7610 B]
-Get:149 http://archive.ubuntu.com/ubuntu jammy/main amd64 emacsen-common all 3.0.4 [14.9 kB]
-Get:150 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cmake-data all 3.22.1-1ubuntu1.22.04.1 [1913 kB]
-Get:151 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cmake amd64 3.22.1-1ubuntu1.22.04.1 [5013 kB]
-Get:152 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdebhelper-perl all 13.6ubuntu1 [67.2 kB]
-Get:153 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtool all 2.4.6-15build2 [164 kB]
-Get:154 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-autoreconf all 20 [16.1 kB]
-Get:155 http://archive.ubuntu.com/ubuntu jammy/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
-Get:156 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-override-perl all 0.09-2 [9532 B]
-Get:157 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-stripnondeterminism-perl all 1.13.0-1 [18.1 kB]
-Get:158 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-strip-nondeterminism all 1.13.0-1 [5344 B]
-Get:159 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdw1 amd64 0.186-1build1 [250 kB]
-Get:160 http://archive.ubuntu.com/ubuntu jammy/main amd64 debugedit amd64 1:5.0-4build1 [47.2 kB]
-Get:161 http://archive.ubuntu.com/ubuntu jammy/main amd64 dwz amd64 0.14-1build2 [105 kB]
-Get:162 http://archive.ubuntu.com/ubuntu jammy/main amd64 gettext amd64 0.21-4ubuntu4 [868 kB]
-Get:163 http://archive.ubuntu.com/ubuntu jammy/main amd64 intltool-debian all 0.35.0+20060710.5 [24.9 kB]
-Get:164 http://archive.ubuntu.com/ubuntu jammy/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
-Get:165 http://archive.ubuntu.com/ubuntu jammy/main amd64 debhelper all 13.6ubuntu1 [923 kB]
-Get:166 http://archive.ubuntu.com/ubuntu jammy/main amd64 xml-core all 0.18+nmu1 [21.6 kB]
-Get:167 http://archive.ubuntu.com/ubuntu jammy/main amd64 docutils-common all 0.17.1+dfsg-2 [117 kB]
-Get:168 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libxapian30 amd64 1.4.18-4 [701 kB]
-Get:169 http://archive.ubuntu.com/ubuntu jammy/universe amd64 doxygen amd64 1.9.1-2ubuntu2 [4620 kB]
-Get:170 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
-Get:171 http://archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
-Get:172 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl3-gnutls amd64 7.81.0-1ubuntu1.6 [283 kB]
-Get:173 http://archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
-Get:174 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.5 [953 kB]
-Get:175 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.5 [3132 kB]
-Get:176 http://archive.ubuntu.com/ubuntu jammy/universe amd64 googletest all 1.11.0-3 [541 kB]
-Get:177 http://archive.ubuntu.com/ubuntu jammy/universe amd64 google-mock amd64 1.11.0-3 [3838 B]
-Get:178 http://archive.ubuntu.com/ubuntu jammy/main amd64 libblas3 amd64 3.10.0-2ubuntu1 [228 kB]
-Get:179 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1-dev amd64 2.4.7-1ubuntu0.1 [147 kB]
-Get:180 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libfmt8 amd64 8.1.1+ds1-2 [60.2 kB]
-Get:181 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgfortran5 amd64 12.1.0-2ubuntu1~22.04 [882 kB]
-Get:182 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libgtest-dev amd64 1.11.0-3 [250 kB]
-Get:183 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
-Get:184 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
-Get:185 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-sphinxdoc all 4.3.2-1 [139 kB]
-Get:186 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblapack3 amd64 3.10.0-2ubuntu1 [2504 kB]
-Get:187 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10 amd64 3.10.6-1~22.04.1 [1955 kB]
-Get:188 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
-Get:189 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-dev amd64 3.10.6-1~22.04.1 [4753 kB]
-Get:190 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04 [7166 B]
-Get:191 http://archive.ubuntu.com/ubuntu jammy/universe amd64 librange-v3-dev all 0.11.0-2 [215 kB]
-Get:192 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libspdlog1 amd64 1:1.9.2+ds-0.2 [126 kB]
-Get:193 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libfmt-dev amd64 8.1.1+ds1-2 [118 kB]
-Get:194 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libspdlog-dev amd64 1:1.9.2+ds-0.2 [181 kB]
-Get:195 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl-dev amd64 3.0.2-0ubuntu1.7 [2372 kB]
-Get:196 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libtinyxml2-9 amd64 9.0.0+dfsg-3 [32.5 kB]
-Get:197 http://archive.ubuntu.com/ubuntu jammy/main amd64 pkg-config amd64 0.29.2-1ubuntu3 [48.2 kB]
-Get:198 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-argcomplete all 1.8.1-1.5 [27.2 kB]
-Get:199 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-attr all 21.2.0-1 [44.0 kB]
-Get:200 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-six all 1.16.0-3ubuntu1 [12.6 kB]
-Get:201 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-dateutil all 2.8.1-6 [78.4 kB]
-Get:202 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-roman all 3.3-1 [10.6 kB]
-Get:203 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-docutils all 0.17.1+dfsg-2 [387 kB]
-Get:204 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-pyparsing all 2.4.7-1 [61.4 kB]
-Get:205 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-dev amd64 3.10.6-1~22.04.1 [507 kB]
-Get:206 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-lib2to3 all 3.10.6-1~22.04 [77.6 kB]
-Get:207 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distutils all 3.10.6-1~22.04 [139 kB]
-Get:208 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04 [26.0 kB]
-Get:209 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-empy all 3.3.4-2 [65.7 kB]
-Get:210 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-more-itertools all 8.10.0-2 [47.9 kB]
-Get:211 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-zipp all 1.0.0-3 [5440 B]
-Get:212 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-importlib-metadata all 4.6.4-1 [16.2 kB]
-Get:213 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-iniconfig all 1.1.1-2 [6024 B]
-Get:214 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-lark all 1.1.1-1 [123 kB]
-Get:215 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-numpy amd64 1:1.21.5-1build2 [3464 kB]
-Get:216 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-packaging all 21.3-1 [30.7 kB]
-Get:217 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pluggy all 0.13.0-7.1 [19.0 kB]
-Get:218 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-py all 1.10.0-1 [71.9 kB]
-Get:219 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-toml all 0.10.2-1 [16.5 kB]
-Get:220 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pytest all 6.2.5-1ubuntu2 [214 kB]
-Get:221 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-setuptools all 59.6.0-1.2 [339 kB]
-Get:222 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libtinyxml2-dev amd64 9.0.0+dfsg-3 [18.6 kB]
-Get:223 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-dev amd64 0.2.2-1build2 [62.8 kB]
-Get:224 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libeigen3-dev all 3.4.0-2ubuntu2 [1056 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04.1 [810 kB]
+Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.1 [90.9 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.6-1~22.04.1 [2263 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ros-workspace amd64 1.0.2-5jammy.20221102.192419 [16.7 kB]
+Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastcdr amd64 1.0.24-2jammy.20221102.193642 [44.1 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.6-1~22.04.1 [1831 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.6-1~22.04.1 [497 kB]
+Get:16 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-package amd64 0.15.1-1jammy.20220914.010527 [21.6 kB]
+Get:17 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-core amd64 1.5.2-1jammy.20221102.192246 [29.0 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04 [22.8 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy/main amd64 sgml-base all 1.30 [12.5 kB]
+Get:21 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-definitions amd64 1.5.2-1jammy.20221102.192705 [7428 B]
+Get:22 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-libraries amd64 1.5.2-1jammy.20221102.192835 [7562 B]
+Get:23 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-dependencies amd64 1.5.2-1jammy.20221102.193026 [8962 B]
+Get:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmd0 amd64 1.0.4-1build1 [23.0 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbsd0 amd64 0.11.5-1 [44.8 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libelf1 amd64 0.186-1build1 [51.0 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglib2.0-0 amd64 2.72.1-1 [1460 kB]
+Get:28 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-include-directories amd64 1.5.2-1jammy.20221102.192721 [7764 B]
+Get:29 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-libraries amd64 1.5.2-1jammy.20221102.192706 [10.5 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
+Get:31 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-interfaces amd64 1.5.2-1jammy.20221102.192746 [8186 B]
+Get:32 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-link-flags amd64 1.5.2-1jammy.20221102.192717 [7044 B]
+Get:33 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-targets amd64 1.5.2-1jammy.20221102.192735 [7736 B]
+Get:34 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gen-version-h amd64 1.5.2-1jammy.20221102.193628 [9130 B]
+Get:35 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-python amd64 1.5.2-1jammy.20221102.192703 [10.5 kB]
+Get:36 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-include-directories amd64 1.5.2-1jammy.20221102.192841 [7480 B]
+Get:37 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-target-dependencies amd64 1.5.2-1jammy.20221102.193033 [9692 B]
+Get:38 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-test amd64 1.5.2-1jammy.20221102.192731 [16.8 kB]
+Get:39 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-version amd64 1.5.2-1jammy.20221102.192703 [7234 B]
+Get:40 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake amd64 1.5.2-1jammy.20221102.193827 [7566 B]
+Get:41 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-index-python amd64 1.5.1-1jammy.20221102.194954 [12.3 kB]
+Get:42 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-python-cmake-module amd64 0.10.1-1jammy.20221102.201330 [8050 B]
+Get:43 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcutils amd64 6.0.1-1jammy.20221102.202700 [89.7 kB]
+Get:44 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-interface amd64 3.3.1-1jammy.20221102.195920 [8860 B]
+Get:45 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-runtime-c amd64 3.3.1-1jammy.20221102.212508 [26.5 kB]
+Get:46 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw amd64 6.4.0-1jammy.20221102.212809 [68.7 kB]
+Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2 amd64 2.9.13+dfsg-1ubuntu0.1 [763 kB]
+Get:48 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-0-2 amd64 0.2.2-1build2 [51.6 kB]
+Get:49 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-pkg-resources all 59.6.0-1.2 [132 kB]
+Get:50 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-yaml amd64 5.4.1-1ubuntu1 [129 kB]
+Get:51 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 tzdata all 2022f-0ubuntu0.22.04.1 [333 kB]
+Get:52 http://archive.ubuntu.com/ubuntu jammy/main amd64 bsdextrautils amd64 2.37.2-4ubuntu3 [71.1 kB]
+Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmagic-mgc amd64 1:5.41-3 [257 kB]
+Get:54 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmagic1 amd64 1:5.41-3 [87.2 kB]
+Get:55 http://archive.ubuntu.com/ubuntu jammy/main amd64 file amd64 1:5.41-3 [21.5 kB]
+Get:56 http://archive.ubuntu.com/ubuntu jammy/main amd64 gettext-base amd64 0.21-4ubuntu4 [37.8 kB]
+Get:57 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-cli amd64 3.3.1-1jammy.20221102.195206 [18.8 kB]
+Get:58 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-adapter amd64 3.3.1-1jammy.20221102.195836 [19.4 kB]
+Get:59 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-parser amd64 3.3.1-1jammy.20221102.200016 [19.4 kB]
+Get:60 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-pycommon amd64 3.3.1-1jammy.20221102.200148 [7386 B]
+Get:61 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-c amd64 3.3.1-1jammy.20221102.212430 [20.0 kB]
+Get:62 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuchardet0 amd64 0.0.7-1build2 [76.9 kB]
+Get:63 http://archive.ubuntu.com/ubuntu jammy/main amd64 groff-base amd64 1.22.4-8build1 [955 kB]
+Get:64 http://archive.ubuntu.com/ubuntu jammy/main amd64 libedit2 amd64 3.1-20210910-1build1 [96.8 kB]
+Get:65 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnghttp2-14 amd64 1.43.0-1build3 [76.3 kB]
+Get:66 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpipeline1 amd64 1.5.5-1 [23.5 kB]
+Get:67 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpsl5 amd64 0.21.0-1.2build2 [58.4 kB]
+Get:68 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuv1 amd64 1.43.0-1 [93.1 kB]
+Get:69 http://archive.ubuntu.com/ubuntu jammy/main amd64 man-db amd64 2.10.2-1 [1187 kB]
+Get:70 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsigsegv2 amd64 2.13-1ubuntu3 [14.6 kB]
+Get:71 http://archive.ubuntu.com/ubuntu jammy/main amd64 m4 amd64 1.4.18-5ubuntu2 [199 kB]
+Get:72 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcpputils amd64 2.6.0-1jammy.20221102.203407 [44.5 kB]
+Get:73 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-c amd64 2.2.0-1jammy.20221102.213026 [24.5 kB]
+Get:74 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rpyutils amd64 0.3.1-1jammy.20221102.195223 [6214 B]
+Get:75 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-py amd64 0.16.1-1jammy.20221102.213950 [29.8 kB]
+Get:76 http://archive.ubuntu.com/ubuntu jammy/main amd64 autoconf all 2.71-2 [338 kB]
+Get:77 http://archive.ubuntu.com/ubuntu jammy/main amd64 autotools-dev all 20220109.1 [44.9 kB]
+Get:78 http://archive.ubuntu.com/ubuntu jammy/main amd64 automake all 1:1.16.5-1.3 [558 kB]
+Get:79 http://archive.ubuntu.com/ubuntu jammy/main amd64 autopoint all 0.21-4ubuntu4 [422 kB]
+Get:80 http://archive.ubuntu.com/ubuntu jammy/universe amd64 catch2 amd64 2.13.8-1 [490 kB]
+Get:81 http://archive.ubuntu.com/ubuntu jammy/main amd64 libllvm14 amd64 1:14.0.0-1ubuntu1 [24.0 MB]
+Get:82 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-runtime-cpp amd64 3.3.1-1jammy.20221102.212839 [15.4 kB]
+Get:83 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-cpp amd64 2.2.0-1jammy.20221102.213316 [23.5 kB]
+Get:84 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-gtest-vendor amd64 1.10.9004-3jammy.20221102.193517 [175 kB]
+Get:85 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gtest amd64 1.5.2-1jammy.20221102.193555 [11.4 kB]
+Get:86 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-gmock-vendor amd64 1.10.9004-3jammy.20221102.193605 [93.3 kB]
+Get:87 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gmock amd64 1.5.2-1jammy.20221102.193700 [10.5 kB]
+Get:88 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-pytest amd64 1.5.2-1jammy.20221102.192858 [9846 B]
+Get:89 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-domain-coordinator amd64 0.11.1-1jammy.20221102.195107 [5528 B]
+Get:90 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-ros amd64 0.11.1-1jammy.20221102.200233 [8250 B]
+Get:91 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastrtps-cmake-module amd64 2.4.0-1jammy.20221102.201001 [7162 B]
+Get:92 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-generator-cpp amd64 3.3.1-1jammy.20221102.213031 [20.2 kB]
+Get:93 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-fastrtps-cpp amd64 2.4.0-1jammy.20221102.213449 [25.4 kB]
+Get:94 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-fastrtps-c amd64 2.4.0-1jammy.20221102.213700 [23.8 kB]
+Get:95 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-introspection-c amd64 3.3.1-1jammy.20221102.212841 [22.7 kB]
+Get:96 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-typesupport-introspection-cpp amd64 3.3.1-1jammy.20221102.213132 [22.7 kB]
+Get:97 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-core-runtime amd64 0.1.0-1jammy.20221102.214436 [5698 B]
+Get:98 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-builtin-interfaces amd64 1.3.1-1jammy.20221102.214752 [41.1 kB]
+Get:99 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-unique-identifier-msgs amd64 2.3.1-1jammy.20221102.214512 [37.6 kB]
+Get:100 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-action-msgs amd64 1.3.1-1jammy.20221102.215258 [68.9 kB]
+Get:101 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-index-cpp amd64 1.5.1-1jammy.20221102.200233 [23.0 kB]
+Get:102 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-foonathan-memory-vendor amd64 1.2.0-2jammy.20221102.201707 [769 kB]
+Get:103 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang-cpp14 amd64 1:14.0.0-1ubuntu1 [12.1 MB]
+Get:104 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-fastrtps amd64 2.8.0-1jammy.20221102.201928 [2766 kB]
+Get:105 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgc1 amd64 1:8.0.6-1.1build1 [96.8 kB]
+Get:106 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc4 amd64 12.1.0-2ubuntu1~22.04 [48.7 kB]
+Get:107 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc-11-dev amd64 11.3.0-1ubuntu1~22.04 [196 kB]
+Get:108 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-i386 amd64 2.35-0ubuntu3.1 [2837 kB]
+Get:109 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 lib32gcc-s1 amd64 12.1.0-2ubuntu1~22.04 [64.5 kB]
+Get:110 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 lib32stdc++6 amd64 12.1.0-2ubuntu1~22.04 [737 kB]
+Get:111 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang-common-14-dev amd64 1:14.0.0-1ubuntu1 [5976 kB]
+Get:112 http://archive.ubuntu.com/ubuntu jammy/universe amd64 llvm-14-linker-tools amd64 1:14.0.0-1ubuntu1 [1353 kB]
+Get:113 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libclang1-14 amd64 1:14.0.0-1ubuntu1 [6796 kB]
+Get:114 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-14 amd64 1:14.0.0-1ubuntu1 [81.2 kB]
+Get:115 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tools-14 amd64 1:14.0.0-1ubuntu1 [6963 kB]
+Get:116 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tidy-14 amd64 1:14.0.0-1ubuntu1 [1624 kB]
+Get:117 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-tidy amd64 1:14.0-55~exp2 [3456 B]
+Get:118 http://archive.ubuntu.com/ubuntu jammy/main amd64 libarchive13 amd64 3.6.0-1ubuntu1 [368 kB]
+Get:119 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+Get:120 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1 [20.8 kB]
+Get:121 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1 [53.9 kB]
+Get:122 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.13+dfsg-0ubuntu0.22.04.1 [183 kB]
+Get:123 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
+Get:124 http://archive.ubuntu.com/ubuntu jammy/main amd64 libssh-4 amd64 0.9.6-2build1 [184 kB]
+Get:125 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.6 [290 kB]
+Get:126 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjsoncpp25 amd64 1.9.5-3 [80.0 kB]
+Get:127 http://archive.ubuntu.com/ubuntu jammy/main amd64 librhash0 amd64 1.4.2-1ubuntu1 [125 kB]
+Get:128 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-elpa-helper all 2.0.9ubuntu1 [7610 B]
+Get:129 http://archive.ubuntu.com/ubuntu jammy/main amd64 emacsen-common all 3.0.4 [14.9 kB]
+Get:130 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cmake-data all 3.22.1-1ubuntu1.22.04.1 [1913 kB]
+Get:131 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cmake amd64 3.22.1-1ubuntu1.22.04.1 [5013 kB]
+Get:132 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdebhelper-perl all 13.6ubuntu1 [67.2 kB]
+Get:133 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtool all 2.4.6-15build2 [164 kB]
+Get:134 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-autoreconf all 20 [16.1 kB]
+Get:135 http://archive.ubuntu.com/ubuntu jammy/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
+Get:136 http://archive.ubuntu.com/ubuntu jammy/main amd64 libsub-override-perl all 0.09-2 [9532 B]
+Get:137 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-stripnondeterminism-perl all 1.13.0-1 [18.1 kB]
+Get:138 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-strip-nondeterminism all 1.13.0-1 [5344 B]
+Get:139 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdw1 amd64 0.186-1build1 [250 kB]
+Get:140 http://archive.ubuntu.com/ubuntu jammy/main amd64 debugedit amd64 1:5.0-4build1 [47.2 kB]
+Get:141 http://archive.ubuntu.com/ubuntu jammy/main amd64 dwz amd64 0.14-1build2 [105 kB]
+Get:142 http://archive.ubuntu.com/ubuntu jammy/main amd64 gettext amd64 0.21-4ubuntu4 [868 kB]
+Get:143 http://archive.ubuntu.com/ubuntu jammy/main amd64 intltool-debian all 0.35.0+20060710.5 [24.9 kB]
+Get:144 http://archive.ubuntu.com/ubuntu jammy/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
+Get:145 http://archive.ubuntu.com/ubuntu jammy/main amd64 debhelper all 13.6ubuntu1 [923 kB]
+Get:146 http://archive.ubuntu.com/ubuntu jammy/main amd64 xml-core all 0.18+nmu1 [21.6 kB]
+Get:147 http://archive.ubuntu.com/ubuntu jammy/main amd64 docutils-common all 0.17.1+dfsg-2 [117 kB]
+Get:148 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libxapian30 amd64 1.4.18-4 [701 kB]
+Get:149 http://archive.ubuntu.com/ubuntu jammy/universe amd64 doxygen amd64 1.9.1-2ubuntu2 [4620 kB]
+Get:150 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1 [31.5 kB]
+Get:151 http://archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1 [60.4 kB]
+Get:152 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl3-gnutls amd64 7.81.0-1ubuntu1.6 [283 kB]
+Get:153 http://archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+Get:154 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.5 [953 kB]
+Get:155 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.5 [3132 kB]
+Get:156 http://archive.ubuntu.com/ubuntu jammy/universe amd64 googletest all 1.11.0-3 [541 kB]
+Get:157 http://archive.ubuntu.com/ubuntu jammy/universe amd64 google-mock amd64 1.11.0-3 [3838 B]
+Get:158 http://archive.ubuntu.com/ubuntu jammy/main amd64 libblas3 amd64 3.10.0-2ubuntu1 [228 kB]
+Get:159 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1-dev amd64 2.4.7-1ubuntu0.1 [147 kB]
+Get:160 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libfmt8 amd64 8.1.1+ds1-2 [60.2 kB]
+Get:161 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgfortran5 amd64 12.1.0-2ubuntu1~22.04 [882 kB]
+Get:162 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libgtest-dev amd64 1.11.0-3 [250 kB]
+Get:163 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
+Get:164 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
+Get:165 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjs-sphinxdoc all 4.3.2-1 [139 kB]
+Get:166 http://archive.ubuntu.com/ubuntu jammy/main amd64 liblapack3 amd64 3.10.0-2ubuntu1 [2504 kB]
+Get:167 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10 amd64 3.10.6-1~22.04.1 [1955 kB]
+Get:168 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
+Get:169 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-dev amd64 3.10.6-1~22.04.1 [4753 kB]
+Get:170 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-dev amd64 3.10.6-1~22.04 [7166 B]
+Get:171 http://archive.ubuntu.com/ubuntu jammy/universe amd64 librange-v3-dev all 0.11.0-2 [215 kB]
+Get:172 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libspdlog1 amd64 1:1.9.2+ds-0.2 [126 kB]
+Get:173 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libfmt-dev amd64 8.1.1+ds1-2 [118 kB]
+Get:174 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libspdlog-dev amd64 1:1.9.2+ds-0.2 [181 kB]
+Get:175 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl-dev amd64 3.0.2-0ubuntu1.7 [2372 kB]
+Get:176 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libtinyxml2-9 amd64 9.0.0+dfsg-3 [32.5 kB]
+Get:177 http://archive.ubuntu.com/ubuntu jammy/main amd64 pkg-config amd64 0.29.2-1ubuntu3 [48.2 kB]
+Get:178 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-argcomplete all 1.8.1-1.5 [27.2 kB]
+Get:179 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-attr all 21.2.0-1 [44.0 kB]
+Get:180 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-six all 1.16.0-3ubuntu1 [12.6 kB]
+Get:181 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-dateutil all 2.8.1-6 [78.4 kB]
+Get:182 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-roman all 3.3-1 [10.6 kB]
+Get:183 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-docutils all 0.17.1+dfsg-2 [387 kB]
+Get:184 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosidl-default-runtime amd64 1.4.0-1jammy.20221102.220256 [7220 B]
+Get:185 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-interfaces amd64 1.3.1-1jammy.20221102.220627 [222 kB]
+Get:186 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-pyparsing all 2.4.7-1 [61.4 kB]
+Get:187 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-dev amd64 3.10.6-1~22.04.1 [507 kB]
+Get:188 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-lib2to3 all 3.10.6-1~22.04 [77.6 kB]
+Get:189 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-distutils all 3.10.6-1~22.04 [139 kB]
+Get:190 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-dev amd64 3.10.6-1~22.04 [26.0 kB]
+Get:191 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-empy all 3.3.4-2 [65.7 kB]
+Get:192 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-more-itertools all 8.10.0-2 [47.9 kB]
+Get:193 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-zipp all 1.0.0-3 [5440 B]
+Get:194 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-importlib-metadata all 4.6.4-1 [16.2 kB]
+Get:195 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-iniconfig all 1.1.1-2 [6024 B]
+Get:196 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-lark all 1.1.1-1 [123 kB]
+Get:197 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-numpy amd64 1:1.21.5-1build2 [3464 kB]
+Get:198 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-packaging all 21.3-1 [30.7 kB]
+Get:199 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pluggy all 0.13.0-7.1 [19.0 kB]
+Get:200 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-py all 1.10.0-1 [71.9 kB]
+Get:201 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-toml all 0.10.2-1 [16.5 kB]
+Get:202 http://archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pytest all 6.2.5-1ubuntu2 [214 kB]
+Get:203 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-setuptools all 59.6.0-1.2 [339 kB]
+Get:204 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libtinyxml2-dev amd64 9.0.0+dfsg-3 [18.6 kB]
+Get:205 http://archive.ubuntu.com/ubuntu jammy/main amd64 libyaml-dev amd64 0.2.2-1build2 [62.8 kB]
+Get:206 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libeigen3-dev all 3.4.0-2ubuntu2 [1056 kB]
+Get:207 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-logging-interface amd64 2.4.2-1jammy.20221102.203832 [12.8 kB]
+Get:208 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-spdlog-vendor amd64 1.4.2-1jammy.20221102.195832 [6390 B]
+Get:209 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-logging-spdlog amd64 2.4.2-1jammy.20221102.204059 [17.8 kB]
+Get:210 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-libyaml-vendor amd64 1.4.2-1jammy.20221102.212357 [67.7 kB]
+Get:211 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl-yaml-param-parser amd64 5.5.0-1jammy.20221102.213447 [29.4 kB]
+Get:212 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-implementation-cmake amd64 6.4.0-1jammy.20221102.195833 [8860 B]
+Get:213 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-dds-common amd64 1.7.1-1jammy.20221102.222428 [99.5 kB]
+Get:214 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tracetools amd64 4.1.0-1jammy.20221102.200534 [17.7 kB]
+Get:215 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-fastrtps-shared-cpp amd64 6.5.0-1jammy.20221102.225052 [164 kB]
+Get:216 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-fastrtps-cpp amd64 6.5.0-1jammy.20221102.225643 [94.2 kB]
+Get:217 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rmw-implementation amd64 2.10.0-1jammy.20221107.193205 [25.4 kB]
+Get:218 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rcl amd64 5.5.0-1jammy.20221107.193448 [144 kB]
+Get:219 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-statistics-msgs amd64 1.3.1-1jammy.20221102.222247 [58.3 kB]
+Get:220 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-libstatistics-collector amd64 1.4.0-1jammy.20221108.012506 [25.5 kB]
+Get:221 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rosgraph-msgs amd64 1.3.1-1jammy.20221102.222240 [36.0 kB]
+Get:222 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-rclcpp amd64 17.1.0-1jammy.20221108.012818 [642 kB]
+Get:223 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tcb-span amd64 1.0.2-1jammy.20221102.194744 [10.5 kB]
+Get:224 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-tl-expected amd64 1.0.2-1jammy.20221102.194800 [16.4 kB]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 138 MB in 7s (18.7 MB/s)
+Fetched 138 MB in 2s (71.6 MB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10045 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.6-1~22.04.1_amd64.deb ...
@@ -1185,8 +1185,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1) ...
 Setting up tzdata (2022f-0ubuntu0.22.04.1) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Fri Nov 18 20:50:51 UTC 2022.
-Universal Time is now:  Fri Nov 18 20:50:51 UTC 2022.
+Local time is now:      Fri Nov 18 20:51:15 UTC 2022.
+Universal Time is now:  Fri Nov 18 20:51:15 UTC 2022.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -1427,11 +1427,11 @@ Build-Depends: debhelper (>= 9.0.0), clang-tidy <!nocheck>, doxygen, git, libeig
 Package-List:
  ros-rolling-rsl deb misc optional arch=any
 Checksums-Sha1:
- e834276c73015edd167df3c0933041d5718f761d 83682 ros-rolling-rsl_0.2.0-2jammy.tar.gz
+ aaedeb3129558ab48dedf602a3610303d9053043 83481 ros-rolling-rsl_0.2.0-2jammy.tar.gz
 Checksums-Sha256:
- f094e967e9f0840ceb77d40376a0d41840089c07afde005929f2cc97f17aced9 83682 ros-rolling-rsl_0.2.0-2jammy.tar.gz
+ 67bff7e277c65cbbfca1383c3d546af0930cca3ab38a67e7b51dc9da955c4665 83481 ros-rolling-rsl_0.2.0-2jammy.tar.gz
 Files:
- 6fad1046808f7cc80ad410a602b63d27 83682 ros-rolling-rsl_0.2.0-2jammy.tar.gz
+ 7d62ed9ccfc3a978577aabc34eb2ff9e 83481 ros-rolling-rsl_0.2.0-2jammy.tar.gz
 
 dpkg-source: warning: extracting unsigned source package (ros-rolling-rsl_0.2.0-2jammy.dsc)
 dpkg-source: info: extracting ros-rolling-rsl in /<<PKGBUILDDIR>>
@@ -1564,8 +1564,8 @@ make[4]: Leaving directory '/<<PKGBUILDDIR>>/.obj-x86_64-linux-gnu'
 make  -f CMakeFiles/rsl.dir/build.make CMakeFiles/rsl.dir/build
 make[4]: Entering directory '/<<PKGBUILDDIR>>/.obj-x86_64-linux-gnu'
 [ 33%] Building CXX object CMakeFiles/rsl.dir/src/parameter_validators.cpp.o
-/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFMT_LOCALE -DFMT_SHARED -DRCUTILS_ENABLE_FAULT_INJECTION -Drsl_EXPORTS -I/<<PKGBUILDDIR>>/include -isystem /usr/include/eigen3 -isystem /opt/ros/rolling/include/rclcpp -isystem /opt/ros/rolling/include/ament_index_cpp -isystem /opt/ros/rolling/include/libstatistics_collector -isystem /opt/ros/rolling/include/builtin_interfaces -isystem /opt/ros/rolling/include/rosidl_runtime_c -isystem /opt/ros/rolling/include/rcutils -isystem /opt/ros/rolling/include/rosidl_typesupport_interface -isystem /opt/ros/rolling/include/fastcdr -isystem /opt/ros/rolling/include/rosidl_runtime_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/rolling/include/rmw -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/rolling/include/rcl -isystem /opt/ros/rolling/include/rcl_interfaces -isystem /opt/ros/rolling/include/rcl_logging_interface -isystem /opt/ros/rolling/include/rcl_yaml_param_parser -isystem /opt/ros/rolling/include/libyaml_vendor -isystem /opt/ros/rolling/include/tracetools -isystem /opt/ros/rolling/include/rcpputils -isystem /opt/ros/rolling/include/statistics_msgs -isystem /opt/ros/rolling/include/rosgraph_msgs -isystem /opt/ros/rolling/include/rosidl_typesupport_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_c -isystem /opt/ros/rolling/include -g -O2 -ffile-prefix-map=/<<PKGBUILDDIR>>=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Werror -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wold-style-cast -std=c++17 -MD -MT CMakeFiles/rsl.dir/src/parameter_validators.cpp.o -MF CMakeFiles/rsl.dir/src/parameter_validators.cpp.o.d -o CMakeFiles/rsl.dir/src/parameter_validators.cpp.o -c /<<PKGBUILDDIR>>/src/parameter_validators.cpp
 [ 66%] Building CXX object CMakeFiles/rsl.dir/src/random.cpp.o
+/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFMT_LOCALE -DFMT_SHARED -DRCUTILS_ENABLE_FAULT_INJECTION -Drsl_EXPORTS -I/<<PKGBUILDDIR>>/include -isystem /usr/include/eigen3 -isystem /opt/ros/rolling/include/rclcpp -isystem /opt/ros/rolling/include/ament_index_cpp -isystem /opt/ros/rolling/include/libstatistics_collector -isystem /opt/ros/rolling/include/builtin_interfaces -isystem /opt/ros/rolling/include/rosidl_runtime_c -isystem /opt/ros/rolling/include/rcutils -isystem /opt/ros/rolling/include/rosidl_typesupport_interface -isystem /opt/ros/rolling/include/fastcdr -isystem /opt/ros/rolling/include/rosidl_runtime_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/rolling/include/rmw -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/rolling/include/rcl -isystem /opt/ros/rolling/include/rcl_interfaces -isystem /opt/ros/rolling/include/rcl_logging_interface -isystem /opt/ros/rolling/include/rcl_yaml_param_parser -isystem /opt/ros/rolling/include/libyaml_vendor -isystem /opt/ros/rolling/include/tracetools -isystem /opt/ros/rolling/include/rcpputils -isystem /opt/ros/rolling/include/statistics_msgs -isystem /opt/ros/rolling/include/rosgraph_msgs -isystem /opt/ros/rolling/include/rosidl_typesupport_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_c -isystem /opt/ros/rolling/include -g -O2 -ffile-prefix-map=/<<PKGBUILDDIR>>=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Werror -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wold-style-cast -std=c++17 -MD -MT CMakeFiles/rsl.dir/src/parameter_validators.cpp.o -MF CMakeFiles/rsl.dir/src/parameter_validators.cpp.o.d -o CMakeFiles/rsl.dir/src/parameter_validators.cpp.o -c /<<PKGBUILDDIR>>/src/parameter_validators.cpp
 /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFMT_LOCALE -DFMT_SHARED -DRCUTILS_ENABLE_FAULT_INJECTION -Drsl_EXPORTS -I/<<PKGBUILDDIR>>/include -isystem /usr/include/eigen3 -isystem /opt/ros/rolling/include/rclcpp -isystem /opt/ros/rolling/include/ament_index_cpp -isystem /opt/ros/rolling/include/libstatistics_collector -isystem /opt/ros/rolling/include/builtin_interfaces -isystem /opt/ros/rolling/include/rosidl_runtime_c -isystem /opt/ros/rolling/include/rcutils -isystem /opt/ros/rolling/include/rosidl_typesupport_interface -isystem /opt/ros/rolling/include/fastcdr -isystem /opt/ros/rolling/include/rosidl_runtime_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/rolling/include/rmw -isystem /opt/ros/rolling/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_c -isystem /opt/ros/rolling/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/rolling/include/rcl -isystem /opt/ros/rolling/include/rcl_interfaces -isystem /opt/ros/rolling/include/rcl_logging_interface -isystem /opt/ros/rolling/include/rcl_yaml_param_parser -isystem /opt/ros/rolling/include/libyaml_vendor -isystem /opt/ros/rolling/include/tracetools -isystem /opt/ros/rolling/include/rcpputils -isystem /opt/ros/rolling/include/statistics_msgs -isystem /opt/ros/rolling/include/rosgraph_msgs -isystem /opt/ros/rolling/include/rosidl_typesupport_cpp -isystem /opt/ros/rolling/include/rosidl_typesupport_c -isystem /opt/ros/rolling/include -g -O2 -ffile-prefix-map=/<<PKGBUILDDIR>>=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -Werror -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wsign-conversion -Wold-style-cast -std=c++17 -MD -MT CMakeFiles/rsl.dir/src/random.cpp.o -MF CMakeFiles/rsl.dir/src/random.cpp.o.d -o CMakeFiles/rsl.dir/src/random.cpp.o -c /<<PKGBUILDDIR>>/src/random.cpp
 [100%] Linking CXX shared library librsl.so
 /usr/bin/cmake -E cmake_link_script CMakeFiles/rsl.dir/link.txt --verbose=1
@@ -1707,19 +1707,19 @@ make[1]: Leaving directory '/<<PKGBUILDDIR>>'
    dh_missing -O-v -O--buildsystem=cmake -O--builddirectory=.obj-x86_64-linux-gnu
    dh_strip -O-v -O--buildsystem=cmake -O--builddirectory=.obj-x86_64-linux-gnu
 	debugedit --build-id --build-id-seed=ros-rolling-rsl/0.2.0-2jammy debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
-23c35761be5a11c8b2177e0455fa2360f47d7685
-	install -d debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/23
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/23/c35761be5a11c8b2177e0455fa2360f47d7685.debug
-	chmod 0644 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/23/c35761be5a11c8b2177e0455fa2360f47d7685.debug
-	chown 0:0 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/23/c35761be5a11c8b2177e0455fa2360f47d7685.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/__VGx4QpcR/stripkQ6BDu debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
-	chmod --reference debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/__VGx4QpcR/stripkQ6BDu
-	cat '/tmp/__VGx4QpcR/stripkQ6BDu' > 'debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so'
-	chmod --reference /tmp/__VGx4QpcR/stripkQ6BDu debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/23/c35761be5a11c8b2177e0455fa2360f47d7685.debug debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/__VGx4QpcR/objcopySDpX3I
-	chmod --reference debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/__VGx4QpcR/objcopySDpX3I
-	cat '/tmp/__VGx4QpcR/objcopySDpX3I' > 'debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so'
-	chmod --reference /tmp/__VGx4QpcR/objcopySDpX3I debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
+9917f94b82deb17d7af477ef4e383022e376047c
+	install -d debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/99
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/99/17f94b82deb17d7af477ef4e383022e376047c.debug
+	chmod 0644 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/99/17f94b82deb17d7af477ef4e383022e376047c.debug
+	chown 0:0 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/99/17f94b82deb17d7af477ef4e383022e376047c.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/e1ElgvkHxp/strip6C5eae debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
+	chmod --reference debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/e1ElgvkHxp/strip6C5eae
+	cat '/tmp/e1ElgvkHxp/strip6C5eae' > 'debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so'
+	chmod --reference /tmp/e1ElgvkHxp/strip6C5eae debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/lib/debug/.build-id/99/17f94b82deb17d7af477ef4e383022e376047c.debug debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/e1ElgvkHxp/objcopyFzSUqx
+	chmod --reference debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so /tmp/e1ElgvkHxp/objcopyFzSUqx
+	cat '/tmp/e1ElgvkHxp/objcopyFzSUqx' > 'debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so'
+	chmod --reference /tmp/e1ElgvkHxp/objcopyFzSUqx debian/ros-rolling-rsl/opt/ros/rolling/lib/librsl.so
 	install -d debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/share/doc
 	ln -s ros-rolling-rsl debian/.debhelper/ros-rolling-rsl/dbgsym-root/usr/share/doc/ros-rolling-rsl-dbgsym
    dh_makeshlibs -O-v -O--buildsystem=cmake -O--builddirectory=.obj-x86_64-linux-gnu
@@ -1740,7 +1740,7 @@ make[1]: Leaving directory '/<<PKGBUILDDIR>>'
 	echo misc:Depends= >> debian/ros-rolling-rsl.substvars
 	echo misc:Pre-Depends= >> debian/ros-rolling-rsl.substvars
 	install -d debian/.debhelper/ros-rolling-rsl/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-rolling-rsl -ldebian/changelog -Tdebian/ros-rolling-rsl.substvars -Pdebian/.debhelper/ros-rolling-rsl/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-rolling-rsl-dbgsym "-DDepends=ros-rolling-rsl (= \${binary:Version})" "-DDescription=debug symbols for ros-rolling-rsl" -DBuild-Ids=23c35761be5a11c8b2177e0455fa2360f47d7685 -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-rolling-rsl -ldebian/changelog -Tdebian/ros-rolling-rsl.substvars -Pdebian/.debhelper/ros-rolling-rsl/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-rolling-rsl-dbgsym "-DDepends=ros-rolling-rsl (= \${binary:Version})" "-DDescription=debug symbols for ros-rolling-rsl" -DBuild-Ids=9917f94b82deb17d7af477ef4e383022e376047c -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-rolling-rsl/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-rolling-rsl -ldebian/changelog -Tdebian/ros-rolling-rsl.substvars -Pdebian/ros-rolling-rsl
@@ -1768,7 +1768,7 @@ dpkg-genchanges: info: binary-only upload (no source code included)
 dpkg-source: info: using options from ros-rolling-rsl-0.2.0/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2022-11-18T20:51:13Z
+Build finished at 2022-11-18T20:51:32Z
 
 Finished
 --------
@@ -1827,17 +1827,17 @@ Changes:
      * Update Catch2
    * Contributors: Chris Thrasher, Tyler Weaver
 Checksums-Sha1:
- 3c31e755339b4174bcb041c7070fce241f4c3cd8 144030 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- 006211d265e4829eacc066ee83fa7df139bc53a2 15237 ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
- 72484254a96700f0e1aea53c014a01973a52e3b3 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ afe9766c0e1040eb0c431d24ef317a6eb7f02b10 144026 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ 3a22a3e5a882f064888ee0219981fffa7c6dc2c1 15237 ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
+ 05bf832ff5584e6239ac6d01a16dbea4ab1a46d6 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 Checksums-Sha256:
- af4bd149b1cf77eed419b1d2862cbf58513050a1461cd9bf861325dd910dae5b 144030 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- 70a3062ad8426e7a76a3545115ca09470704dd9da760de7f6adf1eeb122bb624 15237 ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
- c1a4eae2d4d12253228088a84f350d0063850db08c273abe1ec7a78fa53f6429 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ 50c7d77063df81a0e39a45a0696339425c9717a4f484ff8585ed4ceb72cb5cd4 144026 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ d63bcb2773525fdac2c19aa9ea256396ae57bf228b31923e2557cbfb39fb753e 15237 ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
+ a4aa4df3343b2410beddbf32908458ca5700c763c8364ab01e96a85c7a9a022c 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 Files:
- 5ac8544e5721721a70d89144df51fa75 144030 debug optional ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- cf013a32a202a827b6cffaa090f74a94 15237 misc optional ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
- bb8f99e56f5e6a55594852f132b551ee 20096 misc optional ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ 4029afaeac6dc8dbf836dbd0acbc0c63 144026 debug optional ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ da199e71f65b6cba12008557e92b9fac 15237 misc optional ros-rolling-rsl_0.2.0-2jammy_amd64.buildinfo
+ 0ef5165d87f91780afc790f7e666a06c 20096 misc optional ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -1849,17 +1849,17 @@ Binary: ros-rolling-rsl ros-rolling-rsl-dbgsym
 Architecture: amd64
 Version: 0.2.0-2jammy
 Checksums-Md5:
- 5ac8544e5721721a70d89144df51fa75 144030 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- bb8f99e56f5e6a55594852f132b551ee 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ 4029afaeac6dc8dbf836dbd0acbc0c63 144026 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ 0ef5165d87f91780afc790f7e666a06c 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 Checksums-Sha1:
- 3c31e755339b4174bcb041c7070fce241f4c3cd8 144030 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- 72484254a96700f0e1aea53c014a01973a52e3b3 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ afe9766c0e1040eb0c431d24ef317a6eb7f02b10 144026 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ 05bf832ff5584e6239ac6d01a16dbea4ab1a46d6 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 Checksums-Sha256:
- af4bd149b1cf77eed419b1d2862cbf58513050a1461cd9bf861325dd910dae5b 144030 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
- c1a4eae2d4d12253228088a84f350d0063850db08c273abe1ec7a78fa53f6429 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
+ 50c7d77063df81a0e39a45a0696339425c9717a4f484ff8585ed4ceb72cb5cd4 144026 ros-rolling-rsl-dbgsym_0.2.0-2jammy_amd64.ddeb
+ a4aa4df3343b2410beddbf32908458ca5700c763c8364ab01e96a85c7a9a022c 20096 ros-rolling-rsl_0.2.0-2jammy_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 18 Nov 2022 20:51:12 +0000
+Build-Date: Fri, 18 Nov 2022 20:51:32 +0000
 Build-Path: /<<PKGBUILDDIR>>
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2323,19 +2323,19 @@ Not cleaning session: cloned chroot in use
 
 Build Architecture: amd64
 Build Type: binary
-Build-Space: 4892
-Build-Time: 11
+Build-Space: 4896
+Build-Time: 8
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 40
+Install-Time: 23
 Job: /home/runner/work/RSL/ros-rolling-rsl_0.2.0-2jammy.dsc
 Machine Architecture: amd64
 Package: ros-rolling-rsl
-Package-Time: 65
+Package-Time: 42
 Source-Version: 0.2.0-2jammy
-Space: 4892
+Space: 4896
 Status: successful
 Version: 0.2.0-2jammy
 --------------------------------------------------------------------------------
-Finished at 2022-11-18T20:51:13Z
-Build needed 00:01:05, 4892k disk space
+Finished at 2022-11-18T20:51:32Z
+Build needed 00:00:42, 4896k disk space
