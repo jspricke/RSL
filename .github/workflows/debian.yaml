@@ -12,6 +12,15 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v3
 
+      - name: Cache ccache
+        uses: pat-s/always-upload-cache@v3
+        with:
+          path: /home/runner/.cache/ccache
+          key: ccache-rolling-ci-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: |
+            ccache-rolling-ci-${{ github.sha }}
+            ccache-rolling-ci
+
       - name: Run sbuild
         run: |
           set -x
@@ -24,7 +33,7 @@ jobs:
           echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo "$UBUNTU_CODENAME") main" \
             | sudo tee /etc/apt/sources.list.d/ros2.list
           sudo apt update
-          sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep
+          sudo apt install -y debian-archive-keyring python3-colcon-common-extensions python3-bloom python3-rosdep ccache
 
           sudo rosdep init
           rosdep update
@@ -39,7 +48,18 @@ jobs:
           sudo sed -i 's/my $groupname = getgrgid $REAL_GROUP_ID;/my $groupname = $username;/' /usr/bin/mmdebstrap
 
           mkdir -p ~/.cache/sbuild
-          mmdebstrap --variant=buildd --include=apt --components=main,universe $DISTRO ~/.cache/sbuild/$DISTRO-amd64.tar
+          mmdebstrap --variant=buildd --include=apt,ccache --components=main,universe $DISTRO ~/.cache/sbuild/$DISTRO-amd64.tar
+
+          ccache --zero-stats --max-size=10.0G
+          ccache -sv
+          chmod a+rwX ~
+          chmod -R a+rwX ~/.cache/ccache
+
+          cat << "EOF" > ~/.sbuildrc
+          $build_environment = { 'CCACHE_DIR' => '/build/ccache' };
+          $path = '/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games';
+          $unshare_bind_mounts = [ { directory => '/home/runner/.cache/ccache', mountpoint => '/build/ccache' } ];
+          EOF
 
           for PKG_PATH in $(colcon list -tp); do
             echo "Building $PKG_PATH"
@@ -57,6 +77,9 @@ jobs:
               --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg
             )
           done
+
+          sudo chown -R runner:docker /home/runner/.cache/ccache/
+          ccache -sv
 
           # workaround single ROS package in top folder
           DEB_PATH=.
