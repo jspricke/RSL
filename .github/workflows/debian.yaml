@@ -79,11 +79,18 @@ jobs:
               --dpkg-source-opts="-Zgzip -z1 --format=1.0 -sn" \
               --build-dir=/home/runner/apt_repo --extra-package=/home/runner/apt_repo \
               --extra-repository="deb http://packages.ros.org/ros2/ubuntu $DISTRO main" \
-              --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg
+              --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg \
+              --starting-build-commands "CCACHE_DIR=/build/ccache ccache -z" \
+              --finished-build-commands "CCACHE_DIR=/build/ccache ccache -sv"
+
+            sbuild --chroot-mode=unshare --verbose --no-clean-source --no-run-lintian \
+              --dpkg-source-opts="-Zgzip -z1 --format=1.0 -sn" \
+              --build-dir=/home/runner/apt_repo --extra-package=/home/runner/apt_repo \
+              --extra-repository="deb http://packages.ros.org/ros2/ubuntu $DISTRO main" \
+              --extra-repository-key=/usr/share/keyrings/ros-archive-keyring.gpg \
+              --starting-build-commands "CCACHE_DIR=/build/ccache ccache -z" \
+              --finished-build-commands "CCACHE_DIR=/build/ccache ccache -sv"
             )
-            sudo chown -R runner:docker /home/runner/.cache/ccache/
-            chmod -R a+rwX ~/.cache/ccache
-            ccache -sv
             COUNT=$((COUNT+1))
             [ $TOTAL -ne 1 ] && echo "::endgroup::" || true
           done
